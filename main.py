@@ -10,7 +10,7 @@ if __name__ == '__main__':
     """
     parser = argparse.ArgumentParser(description='scrapes data from the mobafire champions cheat sheet and outputs it to the specified directory') 
     # the directory to save the raw data to -- if none is provided, the raw html data will not be saved
-    parser.add_argument('--raw-data-dir', type=str, help='the directory to save the raw data to')
+    parser.add_argument('--raw-data-dir', type=str, help='the directory to save the raw data to; if none is provided defaults to the OS temp directory')
     parser.add_argument('output_dir', type=str, help='the directory to output the data to')
     args = parser.parse_args()
     url = "https://www.mobafire.com/teamfight-tactics/champions"
