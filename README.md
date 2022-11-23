@@ -1,7 +1,6 @@
 # tft-unit-data-scraper
 Scrape mobalytics champion cheat sheet for champion/trait data.
-To use:
-- clone the repository and call the script:
+To use, clone the repository and call the script: `python3 main.py $PWD`
 ```
 usage: main.py [-h] [--raw-data-dir RAW_DATA_DIR] output_dir
 
